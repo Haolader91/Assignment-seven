@@ -3,6 +3,7 @@ import MainLayout from "../Layouts/MainLayout";
 import Home from "../pages/Home";
 import Stats from "../pages/Stats";
 import Timeline from "../pages/Timeline";
+import FriendsDetails from "../pages/FriendsDetails";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/stats",
         element: <Stats />,
+      },
+      {
+        path: "/friend/:id",
+        element: <FriendsDetails />,
       },
     ],
   },
