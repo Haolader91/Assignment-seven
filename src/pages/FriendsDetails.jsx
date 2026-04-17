@@ -12,7 +12,7 @@ import {
   ArrowLeft,
 } from "lucide-react";
 import { TimelineContext } from "../context/store";
-import friendsData from "../../public/FriendsData.json";
+import friendsData from "/public/FriendsData.json";
 
 const FriendDetails = () => {
   const { id } = useParams();
